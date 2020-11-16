@@ -1,0 +1,52 @@
+/* Custom Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Slider Css */
+.slider{
+    background-color: #fdeae7;
+    padding: 20px 45px;
+}
+.slider-items{}
+.slider-items h2{}
+.slider-items p{}
+.slider-items h3{
+    color: #FF136F;
+    font-weight: 600;
+}
+.slider-items button{
+    background-image: linear-gradient(to bottom , blue 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+
+/* Categories section  */
+.cat{
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+}
+.cat1{
+    background-color: orange;
+}
+.cat2{
+    background-color: #FF136F;
+}
+.cat3{
+    background-color: blue;
+}
+.cat h2{
+    color: #fff;
+    font-weight: 600;
+}
+.cat img{
+    max-width: 40%;
+}
