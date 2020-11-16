@@ -19,12 +19,25 @@ body{
     font-weight: 600;
 }
 .slider-items button{
-    background-image: linear-gradient(to bottom , blue 0%, #FF136F 100%);
+    background-image: linear-gradient(to bottom , rgb(255, 0, 140) 0%, #f53b82 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.h-btn{
+    background-image: linear-gradient(to bottom , rgb(255, 0, 140) 0%, #f53b82 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.price-h{
+    color: #FF136F;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 
@@ -50,3 +63,16 @@ body{
 .cat img{
     max-width: 40%;
 }
+
+
+/* Subscribe Section  */
+.subscribe-section h6{
+    font-size: 30px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.subscribe-section .container{
+    background-color: #fdeae7;
+    padding: 50px 40px ;
+}
+/* Subscribe Section  */
